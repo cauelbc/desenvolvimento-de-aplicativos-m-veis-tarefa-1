@@ -1,0 +1,163 @@
+/* css */
+* {
+    margin: 0;
+    padding: 0;
+    appearance: none;
+    box-sizing: border-box;
+    
+    
+    }
+    body, html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'open sans',sans-serif;
+    background-image: url("nc2.gif");
+    
+    }
+    h1{
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    -webkit-text-stroke: 2px rgb(238, 12, 208);
+    text-shadow: 0 0 200px pink, 0 0 50px pink    ;
+    } 
+    h1 span
+    {
+    display: inline-block;
+    animation: text .2s
+    ease-in-out infinite;
+    }
+    
+    @keyframes text {
+    
+    0%  {
+    transform: none;
+    opacity: 0;
+    animation-delay: 0.1;
+    }
+    
+    }
+    .bagulho {
+        margin-right: 800px;
+    margin-top: -100px;
+    }
+    .bagulho2 {
+        margin-left: 1000px;
+        margin-top: -200px;
+    }
+    p {
+        text-align: center;
+        font-weight: bold;
+        color: #f70592;
+        
+    }
+    h2
+    {
+        font-weight: bold;
+        text-align: center;
+        -webkit-text-stroke: 1px rgb(238, 12, 208);
+        text-shadow: 0 0 200px pink, 0 0 50px pink    ;
+        font-size: 3vw;
+    
+    } 
+    
+    h4 {
+    font: bold;
+    text-align: left;
+        margin-left: -20px;
+        font-size: 2vw;
+    color: #f70592;
+    }
+    li 
+    {
+    font-size: 1.3vw;
+    
+    }
+    h3
+    {
+    color: #f70592;
+    
+    
+    }
+    h5{
+        color: #f70592;
+        font-size: 2vw;
+    
+    }
+    .bagulho3{
+    margin-left: 400px;
+    margin-top: -190px;
+    }
+    
+    h6{
+        color: #f70592;
+        font-size: 1.3vw;
+    
+    }
+    a {
+    color:rgb(238, 12, 208)
+    
+    
+    }
+    h7{
+        font-size: 170px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        color: #eb1414;
+    }
+    .contact {
+        position: relative;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: auto auto auto;
+        margin: 0 auto;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        width: 70%;
+      }
+      .contact__forms {
+        grid-column: 2 / 3;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .contact__forms > label {
+        font-size: 1.15rem;
+        margin-bottom: 4px;
+      }
+      
+      .contact__forms > input, .contact__forms > textarea {
+        font-size: 1.15rem;
+        margin-bottom: 16px;
+        height: 32px;
+        padding: 8px;
+        background-color: #dfdfdf;
+        border: 1px solid #07110b;
+        box-sizing: border-box;
+        font-family: Montserrat, sans-serif;
+      }
+      
+      .contact__forms > textarea {
+        height: 160px;
+      }
+      
+      .contact__forms > button {
+        width: 50%;
+        height: 48px;
+        background-color: #02110c;
+        border: 0;
+        margin-top: 16px;
+        padding: 10px;
+        font-family: Montserrat, sans-serif;
+        font-size: 1.25rem;
+        color: rgba(216, 28, 28, 0.849);
+        letter-spacing: 1px;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+      
+      .contact__forms > button:hover {
+        color: rgba(22, 24, 141, 0.739);
+      }
